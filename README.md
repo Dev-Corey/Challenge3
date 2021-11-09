@@ -34,6 +34,8 @@ THEN the password is either displayed in an alert or written to the page
 
 ![Screenshot of deployed Password Generator](assets/images/passwordGeneratorScreenCapture.PNG)
 
+### Deployed URL https://cboensch6505.github.io/Challenge3/
+
    Upon clicking the "Generate Password" button you will receive a randomly generated password with only the criteria that you have selected. These inlcude a character length from 8 - 128, Lowercase, Uppercase, Numbers, and Special Characters. If you have not selected any character types you will be prompted with an "alert" asking to to have at least one type selected. With your choices of length and character types made the generate password button will now create a password printed on the page in the center of the password box. I originally started writing arrays that included every single letter, number and character and before I could finish I asked if there was a better, cleaner way of doing this. After some research I found that you could creat an array with the ASCII characters you needed and then call the array when the checkbox was checked. So here we are, I little bit tired, but a lot smarter. 
 
 ### Challenge 3 Completed By: Corey Boensch
